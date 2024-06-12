@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="success.html" method="post">
+        <table width="60%" align="center" border="2" cellpadding="10">
+            <tr>
+                <td>
+                    <b>This profile is for</b> <br />
+                    <input type="radio" name="relation" value="1" /> MySelf
+                    <input type="radio" name="relation" value="2" /> My Son
+                    <input type="radio" name="relation" value="3" /> My Daughter
+                    <input type="radio" name="relation" value="4" /> My Brother
+                    <input type="radio" name="relation" value="5" /> My Sister
+                    <input type="radio" name="relation" value="6" /> My Friend
+                    <input type="radio" name="relation" value="7" /> My Relative
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Select Gender</b> <br />
+                    <input type="radio" name="gender" value="1" />Male
+                    <input type="radio" name="gender" value="2" />Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="fullname" placeholder="fullname" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Select birthdate</b> <br />
+                    <input type="date" name="dob" />
+                </td>
+            </tr>
+            <tr>
+               <td>
+                <select name="religion">
+                    <option value="">Select religion</option>
+                    <option value="1">Hinduism</option>
+                    <option value="2">Buddhism</option>
+                    <option value="3">Jainism</option>
+                    <option value="4">Sikhism</option>
+                    <option value="5">Zoroastrianism</option>
+                    <option value="6">Judaism</option>
+                    <option value="7">Christianity</option>
+                    <option value="8">Islam</option>
+                </select>
+               </td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="community">
+                        <option value="" selected>Select community</option>
+                        <option value="1">Tamil</option>
+                        <option value="2">Telugu</option>
+                        <option value="3">Kannada</option>
+                        <option value="4">Malayalam</option>
+                        <option value="5">Marathi</option>
+                        <option value="6">Gujarati</option>
+                        <option value="7">Punjabi</option>
+                        <option value="8">Bengali</option>
+                        <option value="9">Assamese</option>
+                        <option value="10">Odia</option>
+                      </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="country">
+                        <option value="" selected>Select country</option>
+                        <option value="Afghanistan">India</option>
+                        <option value="Albania">Albania</option>
+                        <option value="Algeria">Algeria</option>
+                        <option value="Andorra">Andorra</option>
+                        <option value="Angola">Angola</option>
+                        <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Armenia">Armenia</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Austria">Austria</option>
+                      </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="email" name="email" placeholder="Email address">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="tel" name="mobile" placeholder="mobile">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="number" name="pincode" placeholder="pincode">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Address</b> <br/>
+                    <textarea name="address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Select Graducation</b> <br/>
+                    <input type="checkbox" name="bca" value="1" /> BCA
+                    <input type="checkbox" name="bba" value="2" /> BBA
+                    <input type="checkbox" name="bscit" value="3" /> BSC-IT
+                    <input type="checkbox" name="mba" value="4" /> MBA
+                    <input type="checkbox" name="mca" value="5" /> MCA
+                    <input type="checkbox" name="other" value="6" /> Other
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Select photo</b> <br>
+                    <input type="file" name="photo" accept="image/*" />
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <input type="submit" value="Register" name="submit" />
+                    <input type="reset" value="clear all" name="clear" />
+                    <input type="button" value="can't do anything" name="nothing" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
